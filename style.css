@@ -49,3 +49,9 @@
     font-size: 30px;
     font-weight: 600;
 }
+
+.mid{
+    width: 50vw;
+    margin-left: 25%;
+    margin-right: 25%;
+}
