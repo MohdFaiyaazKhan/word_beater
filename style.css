@@ -1,0 +1,51 @@
+.bg-dark {
+    background-color: #5885AF !important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #274472 !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.heading {
+    font-size: 50px !important;
+    margin-top: -9px;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.display-2 {
+    font-size: 96px;
+}
+
+.form-control {
+    height: 50px !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+#btn{
+    height: 70px;
+    width: 120px;
+}
+
+#seconds{
+    font-size: 30px;
+    font-weight: 600;
+}
