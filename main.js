@@ -48,7 +48,7 @@ function startMatch(){
     }
 }
 function matchWords(){
-    if(wordInput.value == currentWord.innerHTML){
+    if(wordInput.value.toLowerCase() == currentWord.innerHTML.toLowerCase()){
        
         message.className = "p-3 mb-2 bg-success text-white"
         message.innerHTML = "Correct!!"; 
@@ -78,7 +78,7 @@ function countdown(){
 function reloadPage() {
     setTimeout(function() {
       location.reload();
-    }, 1000); 
+    }, 200); 
   }
   
  
