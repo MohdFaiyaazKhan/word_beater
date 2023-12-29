@@ -8,6 +8,7 @@ let scoreDisplay = document.querySelector("#score")
 let timeDisplay = document.querySelector("#time")
 let message = document.querySelector("#message")
 let start = document.querySelector("#btn")
+let restart = document.querySelector("#btn2")
 // let level = document.getElementById("level")
 
 let time=6;
@@ -20,6 +21,7 @@ currentWord.innerHTML = ""
 wordInput.style.display = "none"
 
 start.addEventListener("click",init);
+restart.addEventListener("click",reloadPage);
 
 
 
@@ -60,13 +62,24 @@ function matchWords(){
 function countdown(){
     if(time==0){
         currentWord.innerHTML = ""
+        restart.style.display = "block";
         wordInput.style.display = "none"
         message.className = "p-3 mb-2 bg-danger text-white";
         message.innerHTML = "Game Over!!"
         again.style.display = "block";
+      
     }
     if(time>0){
         time--;
     }
     timeDisplay.innerHTML = time;
 }
+
+function reloadPage() {
+    setTimeout(function() {
+      location.reload();
+    }, 1000); 
+  }
+  
+ 
+  

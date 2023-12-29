@@ -45,6 +45,11 @@
     width: 120px;
 }
 
+#btn2{
+    display: none;
+    margin: auto;
+}
+
 #seconds{
     font-size: 30px;
     font-weight: 600;
@@ -54,4 +59,11 @@
     width: 50vw;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+@media screen and (max-width:600px) {
+    .display-2 {
+        font-size: 40px;
+    }
+    
 }
